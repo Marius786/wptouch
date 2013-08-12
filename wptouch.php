@@ -629,7 +629,9 @@ $wptouch_plugin = new WPtouchPlugin();
 function bnc_wptouch_is_mobile() {
 	global $wptouch_plugin;
 	
-	return ( $wptouch_plugin->applemobile && $wptouch_plugin->desired_view == 'mobile' );	
+	$is_mobile = $wptouch_plugin->applemobile && $wptouch_plugin->desired_view == 'mobile';
+
+	return apply_filters('bnc_wptouch_is_mobile_filter', $is_mobile); 
 }
 
 //Thanks to edyoshi:
