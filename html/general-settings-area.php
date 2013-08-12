@@ -17,23 +17,23 @@
 				<h4><?php _e( "Site Title", "wptouch" ); ?></h4>
 				<p><?php _e( "You can change your site title (if needed) in WPtouch.", "wptouch" ); ?></p>
 
-				<br /><br />
+				<br /><br /><br /><br />
 
 				<h4><?php _e( "Excluded Categories, Tags", "wptouch" ); ?></h4>
 				<p><?php _e( "Categories and/or Tags by ID you want excluded everywhere in WPtouch.", "wptouch" ); ?></p>
 
-				<br /><br /><br />
+				<br /><br /><br /><br />
 
 				<h4><?php _e( "Text Justification Options", "wptouch" ); ?></h4>
 				<p><?php _e( "Set the alignment for text.", "wptouch" ); ?></p>
 
-				<br /><br /><br /><br />
+				<br /><br /><br />
 				
 				<h4><?php _e( "Post Listings Options", "wptouch" ); ?></h4>
 				<p><?php _e( "Choose between calendar Icons, post thumbnails (WP 2.9) or none for your post listings.", "wptouch" ); ?></p>
 				<p><?php _e( "Select which meta items are shown below titles on main, search, &amp; archives pages.", "wptouch" ); ?></p>
 
-				<br /><br /><br /><br /><br /><br /><br />
+				<br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 				<h4><?php _e( "Footer Message", "wptouch" ); ?></h4>
 				<p><?php _e( "Customize the default footer message shown in WPtouch here.", "wptouch" ); ?></p>
@@ -108,12 +108,7 @@
 									<option <?php $version = bnc_get_wp_version(); if ($version <= 2.89) : ?>disabled="true"<?php endif; ?> <?php if ($wptouch_settings['post-cal-thumb'] == "post-thumbnails-random") echo " selected"; ?> value="post-thumbnails-random"><?php _e( "Post Thumbnails / Featured Images (Random)", "wptouch" ); ?></option>
 									<option <?php if ($wptouch_settings['post-cal-thumb'] == "nothing-shown") echo " selected"; ?> value="nothing-shown"><?php _e( "No Icon or Thumbnail", "wptouch" ); ?></option>
 								</select>
-								<?php _e( "Post Listings Display", "wptouch" ); ?> <small>(<?php _e( "Thumbnails Requires WordPress 2.9+", "wptouch" ); ?>)</small> <a href="#thumbs-info" class="fancylink">?</a>
-				<div id="thumbs-info" style="display:none">
-					<h2><?php _e( "More Info", "wptouch" ); ?></h2>
-					<p><?php _e( "This will change the display of blog and post listings between Calendar Icons view and Post Thumbnails view.", "wptouch" ); ?></p>
-					<p><?php _e( "The <em>Post Thumbnails w/ Random</em> option will fill missing post thumbnails with random abstract images. (WP 2.9+)", "wptouch" ); ?></p>
-				</div>
+								<?php _e( "Post Listings Display", "wptouch" ); ?> <small>(<?php _e( "Thumbnails Requires WordPress 2.9+", "wptouch" ); ?>)</small> <a href="#thumbs-info" class="fancylink" rel="tooltip" title="<?php _e( "This will change the display of blog and post listings between Calendar Icons view and Post Thumbnails view.", "wptouch" ); ?> <?php _e( "The 'Post Thumbnails w/ Random' option will fill missing post thumbnails with random abstract images. (WP 2.9+)", "wptouch" ); ?>">?</a>
 							</li>
 						</ul>	
 					</li>

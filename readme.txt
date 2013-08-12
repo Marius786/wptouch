@@ -1,35 +1,40 @@
 === Plugin Name ===
 Contributors: bravenewcode, duanestorey, dalemugford
-Tags: wptouch, iphone, ipod, theme, apple, mac, bravenewcode, ajax, mobile, android, blackberry, smartphone, responsive, design 
+Tags: wptouch, iphone, ipod, bravenewcode, mobile, android, blackberry, smartphone, responsive, design, mobile plugin, ios, mobile theme
 Requires at least: 3.1
-Tested up to: 3.5.2
-Stable tag: 1.9.7.1
+Tested up to: 3.6
+Stable tag: 1.9.8
+License: GPLv2
 
-WPtouch: A simple, powerful & elegant mobile solution for your website.
+Create a beautiful mobile WordPress website with just a few clicks.
 
 == Description ==
 
-WPtouch automatically transforms your WordPress website for mobile devices, complete with ajax loading articles and smooth effects when viewed from popular touch mobile devices like the iPhone, iPod touch, Android mobile phones, BlackBerry OS6+ mobile devices, and more!
+WPtouch is a WordPress plugin that automatically enables a simple and elegant mobile theme for mobile visitors of your WordPress website. The mobile theme is complete with AJAX loading articles and smooth effects when viewed from popular touch mobile devices like the iPhone, iPod touch, Android mobile phones, BlackBerry OS6+ mobile devices, and more.
 
-The admin panel allows you to customize many aspects of its appearance, and deliver a *fast*, user-friendly and stylish version of your site to touch mobile visitors, without modifying *a single bit of code* (or affecting) your regular desktop theme.
+The administration panel allows you to customize many aspects of its appearance, and deliver a *fast*, user-friendly and stylish version of your site to your mobile visitors, without modifying *a single bit of code* (or affecting) your regular desktop theme.
 
-The theme also includes the ability for visitors to switch between *WPtouch* view and your site's regular theme.
+The theme also includes the ability for visitors to switch between your mobile WordPress website and your website's regular theme.
 
-Now includes .pot file for translations (submit yours @ http://www.bravenewcode.com/contact)
+**Now Available: WPtouch Pro 3**
 
-Like WPtouch but want more out of the product?
-
-*WPtouch Pro 3 is now available!!!*
 With all-new themes, an intuitive admin panel and great one-to-one ticketing support, it's the best WPtouch yet!
 
-For more information visit http://www.bravenewcode.com/wptouch/
+For more information visit the [WPtouch Pro 3 Product Page](http://www.bravenewcode.com/wptouch/ "WPtouch Pro 3 Product Page").
 
 'WPtouch' is a trademark of BraveNewCode Inc.
 'WPtouch Pro' is a registered trademark of BraveNewCode Inc.
 
 == Changelog ==
 
-= Version 1.9.7.1 (Jul 18, 2013) =
+= Version 1.9.8 =
+
+* Updated: Modified Adsense code to use asynchronous version as well as slot ID - you must create a new 320x50px ad via your adsense account
+* Updated: Updated product tooltips codde
+* Updated: Administration text and README descriptions
+* Fixed: Admin bugs
+
+= Version 1.9.7.1 =
 
 * Added: Brazilian Português translation (thanks!)
 
@@ -839,6 +844,16 @@ We even automatically put a little snippet of code into your current desktop the
 = Will it slow down my blog, or increase my server load? =
 
 No. The entire *WPtouch* footprint is small. In fact, it should reduce load, because of its streamlined approach to serving optimized content to mobile visitors. It was designed to be as lightweight and speedy as possible, while still serving your site's content in a richly presented way, sparing no essential features like search, login, categories, tags, comments etc.
+
+== Upgrade Notice ==
+
+= 1.9.8 =
+
+Includes important administration panel updates
+
+= 1.9.7.1 =
+
+Includes a new POT file for Brazilian Portuguese
 
 == Screenshots ==
 
